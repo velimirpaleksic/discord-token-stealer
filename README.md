@@ -10,9 +10,9 @@ This script extracts and decrypts tokens from various applications and browsers 
 
 ## You can install the required libraries using pip:
 
-    ```shell
-    pip install pycryptodome pywin32
-    ```
+```shell
+pip install pycryptodome pywin32
+```
 
 ## Files Used
 
@@ -30,18 +30,17 @@ This script extracts and decrypts tokens from various applications and browsers 
 
 ## Script Details
 
-    ```shell
-    Importing Libraries
-
-    from base64 import b64decode
-    from Crypto.Cipher import AES
-    from win32crypt import CryptUnprotectData
-    from os import listdir
-    from json import loads
-    from re import findall
-    import re
-    import os
-    ```
+### Importing Libraries
+```shell
+from base64 import b64decode
+from Crypto.Cipher import AES
+from win32crypt import CryptUnprotectData
+from os import listdir
+from json import loads
+from re import findall
+import re
+import os
+```
 
 ## Key Functions
 
@@ -59,9 +58,9 @@ This script extracts and decrypts tokens from various applications and browsers 
 1. Clone the repository or download the script file.
 2. Ensure the required libraries are installed.
 3. Run the script:
-    ```shell
-    python main.py
-    ```
+```shell
+python main.py
+```
 
 ## Notes
 
